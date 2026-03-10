@@ -30,7 +30,7 @@ The core pipeline follows a **freeze → unfreeze** strategy on a single model, 
 ## Project Structure
 
 ```
-├── CIFAR10_CV_Project.ipynb          # Main notebook (Google Colab)
+├── [CIFAR10_CV_Project.ipynb](https://github.com/reharabi/cifar10-transfer-learning/blob/main/CIFAR10_CV_Project.ipynb)          # Main notebook (Google Colab)
 ├── CIFAR10_Executive_Summary.md      # Executive summary of findings
 ├── CIFAR10_Technical_Analysis.md     # In-depth technical analysis
 ├── CIFAR10_Presentation.pptx         # Presentation slides

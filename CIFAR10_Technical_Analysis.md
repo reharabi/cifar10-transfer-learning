@@ -158,7 +158,7 @@ Test F1-scores across all five model iterations (highest per class in bold):
 | Phase 1 (Frozen) | ~700 (head only) | ~2-3s/epoch | 10 | ~30s |
 | Phase 2 (Full Unfreeze) | ~23.5M | ~8-9s/epoch | 10 | ~90s |
 | v3 (Full Unfreeze) | ~23.5M | ~8-9s/epoch | 20 | ~180s |
-| v4 (Partial Unfreeze) | ~7M (last 35 layers) | ~11-12s/epoch | 20 (stopped at 11) | ~220s |
+| v4 (Partial Unfreeze) | ~7M (last 35 layers) | ~11-12s/epoch | 18 (best at epoch 11) | ~220s |
 | MobileNetV2 | ~3.4M | ~4s/epoch | 20 | ~80s |
 
 > **Note:** v4 is slightly slower per-epoch than fully unfrozen models despite having fewer trainable parameters, because data augmentation adds per-batch computation. However, EarlyStopping at epoch 11 reduced total training time. The entire pipeline (all 5 models) completes in approximately 30-40 minutes on a Google Colab T4 GPU.

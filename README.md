@@ -1,6 +1,6 @@
 # CIFAR-10 Image Classification with Transfer Learning
 
-> Masterschool Data Science & Machine Learning Program — Computer Vision Project
+> MSIT Data Science Course — Computer Vision Project
 
 ## Overview
 

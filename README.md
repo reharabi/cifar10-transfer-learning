@@ -29,13 +29,12 @@ The core pipeline follows a **freeze → unfreeze** strategy on a single model, 
 
 ## Project Structure
 
-```
-├──           # Main notebook (Google Colab)
-├── CIFAR10_Executive_Summary.md      # Executive summary of findings
-├── CIFAR10_Technical_Analysis.md     # In-depth technical analysis
-├── CIFAR10_Presentation.pptx         # Presentation slides
-└── README.md                         # This file
-```
+| File | Description |
+|------|-------------|
+| [`CIFAR10_CV_Project.ipynb`](./CIFAR10_CV_Project.ipynb) | Main notebook (Google Colab) |
+| [`CIFAR10_Executive_Summary.md`](./CIFAR10_Executive_Summary.md) | Executive summary of findings |
+| [`CIFAR10_Technical_Analysis.md`](./CIFAR10_Technical_Analysis.md) | In-depth technical analysis |
+| [`CIFAR10_Presentation.pptx`](./CIFAR10_Presentation.pptx) | Presentation slides |
 
 ## Pipeline
 
@@ -71,10 +70,10 @@ CIFAR-10 (10,000 images)
 
 | File | Description |
 |------|-------------|
-| **Notebook** | Complete iterative pipeline with 5 model versions, visualizations, and analysis |
-| **Executive Summary** | High-level overview of results, key findings, and conclusions |
-| **Technical Analysis** | Deep-dive into preprocessing impact, transfer learning strategies, per-class performance, and architecture comparison |
-| **Presentation** | 14-slide summary covering the full project journey |
+| [**Notebook**](./CIFAR10_CV_Project.ipynb) | Complete iterative pipeline with 5 model versions, visualizations, and analysis |
+| [**Executive Summary**](./CIFAR10_Executive_Summary.md) | High-level overview of results, key findings, and conclusions |
+| [**Technical Analysis**](./CIFAR10_Technical_Analysis.md) | Deep-dive into preprocessing impact, transfer learning strategies, per-class performance, and architecture comparison |
+| [**Presentation**](./CIFAR10_Presentation.pptx) | 14-slide summary covering the full project journey |
 
 ## Author
 

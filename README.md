@@ -78,4 +78,6 @@ CIFAR-10 (10,000 images)
 
 ## Author
 
-Masterschool Data Science & Machine Learning Program
+**Reha Rabi**
+
+MSIT Data Science Course

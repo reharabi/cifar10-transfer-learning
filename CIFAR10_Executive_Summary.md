@@ -1,7 +1,7 @@
 # Executive Summary
 
 **CIFAR-10 Image Classification with Transfer Learning (ResNet50)**
-Masterschool Data Science & Machine Learning Program
+Masterschool Data Science Coursework
 
 ---
 

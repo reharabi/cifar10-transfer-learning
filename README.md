@@ -32,7 +32,6 @@ A common mistake is to simply divide by 255, scaling pixels to [0, 1]. This crea
 | `preprocess_input()` (correct) | 59% | 65% | 65% |
 | **Improvement** | **+25 pts** | **+25 pts** | **+8 pts** |
 
-This single fix — one line of code — improved accuracy by **25 points** across all models. No architectural change, no hyperparameter tuning, no regularization can compensate for feeding wrong inputs to pretrained weights. This was the biggest lesson of the entire project.
 
 ## Step-by-Step Walkthrough
 

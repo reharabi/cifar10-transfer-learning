@@ -1,7 +1,7 @@
 # Technical Analysis
 
 **CIFAR-10 Image Classification with Transfer Learning (ResNet50)**
-Masterschool Data Science & Machine Learning Program
+MSIT Data Science Coursework
 
 ---
 
